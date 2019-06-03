@@ -3,6 +3,15 @@
 a [Sails v1](https://sailsjs.com) application
 
 
+npm install sails -g
+
+npm install
+
+sails lift
+or
+
+node <ruta_descarga>/Violet_Backend/Violet/node_modules/sails/bin/sails.js lift
+
 ### Links
 
 + [Sails framework documentation](https://sailsjs.com/get-started)

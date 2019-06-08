@@ -51,8 +51,8 @@ module.exports = async function getCursoGrupo (req, res) {
     for(var estudiante in estudiantes){
         var notas = []
         var acNotaEstudiante = 0
-        totalActividadesRealizadas = 0;
-        totalActividades = 0;
+        var totalActividadesRealizadas = 0;
+        var totalActividades = 0;
         for(var modulo in modulos){
             
             var actividades = modulos[modulo].actividades

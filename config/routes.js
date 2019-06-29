@@ -9,5 +9,6 @@
  */
 
 module.exports.routes = {
-    'GET /CursoGrupo/:idCurso/:idGrupo': 'Custom/get-curso-grupo' 
+    'GET /CursoGrupo/:idCurso/:idGrupo': 'Custom/get-curso-grupo' ,
+    'GET /ConsultaInicialEstudiante/:idEstudiante': 'Custom/consulta-inicial-estudiante'
 };
